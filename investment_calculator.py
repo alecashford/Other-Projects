@@ -27,4 +27,4 @@ while (investment - (anual * year_count) - initinvest) < (investment - (investme
     investment += ((investment * irate) * .85)
     year_count += 1
 
-print "At that rate it will take %d years of growth to make more in interest than you'll have paid in so far at that time, and it will take %d years for you to be a millionaire." % (year_count, mil_count)
+print "At that rate it will take %d years of growth for your interest to outgrow your principal plus anual additions, and it will take %d years for you to be a millionaire." % (year_count, mil_count)
