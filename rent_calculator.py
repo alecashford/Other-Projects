@@ -1,9 +1,14 @@
+#Calculator that calculates four roommate's share of rent and utilities; also
+#corrects for how much each roommate spends on communal items they paid for
+#out of their own pocket.
+
+
 print "Input the ammounts for each prompt. Do not include the dollar sign.\n"
 rent = float(raw_input("How much was the rent this month? $"))
 gas = float(raw_input("How much was the gas bill this month? $"))
 electric = float(raw_input("How much was the electricity bill this month? $"))
 water = float(raw_input("How much was the water bill this month? $"))
-internet = float(raw_input("How much was the Comcast bill this month?"))
+internet = float(raw_input("How much was the Comcast bill this month? $"))
 garbage = float(raw_input("How much was the garbage bill this month? $"))
 
 equalshare = round(float(((rent + gas + electric + water + internet + garbage) / 4)), 2)
