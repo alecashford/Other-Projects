@@ -1,5 +1,5 @@
 #Simple calculator that calculates interest over time, making distinction between
-#Your principal cash and ROI. Also figures in taxes and tells you how long you will have
+#your principal cash and ROI. Also figures in taxes and tells you how long you will have
 #to wait for your investment to exced $1,000,000.
 
 
