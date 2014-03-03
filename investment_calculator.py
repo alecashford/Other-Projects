@@ -1,3 +1,8 @@
+#Simple calculator that calculates interest over time, making distinction between
+#Your principal cash and ROI. Also figures in taxes and tells you how long you will have
+#to wait for your investment to exced $1,000,000.
+
+
 investment = float(raw_input("What is your initial investment? $"))
 irate = (float(raw_input("What is the assumed interest rate? Write as a percent but do not include the percent sign."))) / 100
 anual = float(raw_input("How much will you be adding anually? $"))
